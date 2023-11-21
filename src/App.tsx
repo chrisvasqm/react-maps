@@ -1,8 +1,10 @@
-function App() {
+import MapContainer from "./components/MapContainer";
 
+function App() {
   return (
     <div>
-      App
+      <h1>Map Container</h1>
+      <MapContainer />
     </div>
   )
 }
